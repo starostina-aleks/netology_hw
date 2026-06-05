@@ -1,0 +1,13 @@
+2026-06-05T11:47:19.404489+0400 OpenAI failed: Error code: 403 - {'error': {'code': 'unsupported_country_region_territory', 'message': 'Country, region, or territory not supported', 'param': None, 'type': 'request_forbidden'}}
+2026-06-05T11:47:22.398339+0400 OpenRouter/gpt-4o-mini | 26633 tok | 4.044s | cache=False | Q: Пользователь прислал скриншот. Определи проблему и предложи решение. Если видишь код ошибки — укажи  | A: Проблема, судя по коду ошибки, заключается в том, что сервер не может найти запрашиваемый ресурс. Ко
+2026-06-05T11:48:01.264034+0400 OpenAI failed: Error code: 403 - {'error': {'code': 'unsupported_country_region_territory', 'message': 'Country, region, or territory not supported', 'param': None, 'type': 'request_forbidden'}}
+2026-06-05T11:48:03.866091+0400 OpenRouter/gpt-4o-mini | 26776 tok | 2.824s | cache=False | Q: Пользователь прислал скриншот. Определи проблему и предложи решение. Если видишь код ошибки — укажи  | A: Проблема заключается в том, что отображается ошибка 404, что означает "Страница не найдена". Это мож
+2026-06-05T11:48:46.241550+0400 OpenAI failed: Error code: 403 - {'error': {'code': 'unsupported_country_region_territory', 'message': 'Country, region, or territory not supported', 'param': None, 'type': 'request_forbidden'}}
+2026-06-05T11:48:48.865644+0400 OpenRouter/gpt-4o-mini | 15580 tok | 2.824s | cache=False | Q: Опиши что изображено на картинке | A: На изображении представлена столбчатая диаграмма, показывающая данные по трем направлениям: Восток, 
+2026-06-05T11:53:12.773656+0400 OpenAI failed: Error code: 403 - {'error': {'code': 'unsupported_country_region_territory', 'message': 'Country, region, or territory not supported', 'param': None, 'type': 'request_forbidden'}}
+2026-06-05T11:53:13.856986+0400 OpenRouter/gpt-4o-mini | 1675 tok | 1.327s | cache=False | Q: я могу загрузить mp4 | A: Нет, вы не можете загрузить файлы формата MP4 в CloudDoc. Поддерживаемые форматы для загрузки включа
+2026-06-05T11:53:35.684591+0400 OpenAI failed: Error code: 403 - {'error': {'code': 'unsupported_country_region_territory', 'message': 'Country, region, or territory not supported', 'param': None, 'type': 'request_forbidden'}}
+2026-06-05T11:53:38.538212+0400 OpenRouter/gpt-4o-mini | 38599 tok | 3.248s | cache=False | Q: Выбери имена файлов, которые я могу хранить в сервисе. | A: Вы можете хранить в сервисе следующие имена файлов:
+
+1. IMG_20251208_132356.jpg
+2. IMG_20251208_1323
