@@ -1,0 +1,185 @@
+2026-06-20 21:34:11.720 | INFO     | Запуск бенчмарка для 20 запросов...
+
+2026-06-20 21:34:11.721 | INFO     | === Выполнение с concurrency = 1 ===
+2026-06-20 21:34:18.115 | INFO     | №0: llm.call | duration_ms=6393.80 | model=gpt-4o-mini | prompt_chars=110 | status=success
+2026-06-20 21:34:21.352 | INFO     | №1: llm.call | duration_ms=9399.70 | model=gpt-4o-mini | prompt_chars=101 | status=success
+2026-06-20 21:34:27.868 | INFO     | №2: llm.call | duration_ms=15916.07 | model=gpt-4o-mini | prompt_chars=95 | status=success
+2026-06-20 21:34:31.914 | INFO     | №3: llm.call | duration_ms=19961.38 | model=gpt-4o-mini | prompt_chars=110 | status=success
+2026-06-20 21:34:35.867 | INFO     | №4: llm.call | duration_ms=23915.00 | model=gpt-4o-mini | prompt_chars=95 | status=success
+2026-06-20 21:34:40.619 | INFO     | №5: llm.call | duration_ms=28666.48 | model=gpt-4o-mini | prompt_chars=105 | status=success
+2026-06-20 21:34:41.954 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:34:41.955 | INFO     | №7: llm.call | duration_ms=30002.47 | model=unknown | prompt_chars=109 | status=timeout
+2026-06-20 21:34:41.955 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:34:41.955 | INFO     | №8: llm.call | duration_ms=30002.81 | model=unknown | prompt_chars=103 | status=timeout
+2026-06-20 21:34:41.955 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:34:41.956 | INFO     | №6: llm.call | duration_ms=30003.39 | model=gpt-4o-mini | prompt_chars=105 | status=timeout
+2026-06-20 21:34:41.970 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:34:41.971 | INFO     | №10: llm.call | duration_ms=30004.10 | model=unknown | prompt_chars=100 | status=timeout
+2026-06-20 21:34:41.971 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:34:41.971 | INFO     | №11: llm.call | duration_ms=30004.50 | model=unknown | prompt_chars=107 | status=timeout
+2026-06-20 21:34:41.971 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:34:41.971 | INFO     | №12: llm.call | duration_ms=30004.73 | model=unknown | prompt_chars=102 | status=timeout
+2026-06-20 21:34:41.972 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:34:41.972 | INFO     | №13: llm.call | duration_ms=30004.94 | model=unknown | prompt_chars=115 | status=timeout
+2026-06-20 21:34:41.972 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:34:41.972 | INFO     | №14: llm.call | duration_ms=30005.11 | model=unknown | prompt_chars=113 | status=timeout
+2026-06-20 21:34:41.972 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:34:41.972 | INFO     | №15: llm.call | duration_ms=30005.27 | model=unknown | prompt_chars=101 | status=timeout
+2026-06-20 21:34:41.972 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:34:41.972 | INFO     | №16: llm.call | duration_ms=30005.42 | model=unknown | prompt_chars=88 | status=timeout
+2026-06-20 21:34:41.972 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:34:41.972 | INFO     | №17: llm.call | duration_ms=30005.56 | model=unknown | prompt_chars=108 | status=timeout
+2026-06-20 21:34:41.972 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:34:41.972 | INFO     | №18: llm.call | duration_ms=30005.68 | model=unknown | prompt_chars=107 | status=timeout
+2026-06-20 21:34:41.972 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:34:41.973 | INFO     | №19: llm.call | duration_ms=30005.80 | model=unknown | prompt_chars=103 | status=timeout
+2026-06-20 21:34:41.973 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:34:41.973 | INFO     | №9: llm.call | duration_ms=30006.19 | model=gpt-4o-mini | prompt_chars=94 | status=timeout
+2026-06-20 21:34:41.973 | INFO     | Успешно выполнено: 6/20
+2026-06-20 21:34:41.973 | INFO     | Общее время на все запросы: 30.25 сек.
+
+2026-06-20 21:34:41.973 | INFO     | === Выполнение с concurrency = 5 ===
+2026-06-20 21:34:45.618 | WARNING  | №4: OpenAI failed: Connection error.
+2026-06-20 21:34:45.882 | INFO     | №2: llm.call | duration_ms=3908.04 | model=gpt-4o-mini | prompt_chars=95 | status=success
+2026-06-20 21:34:45.961 | INFO     | №0: llm.call | duration_ms=3987.20 | model=gpt-4o-mini | prompt_chars=110 | status=success
+2026-06-20 21:34:46.413 | INFO     | №1: llm.call | duration_ms=4438.52 | model=gpt-4o-mini | prompt_chars=101 | status=success
+2026-06-20 21:34:49.408 | INFO     | №3: llm.call | duration_ms=7433.61 | model=gpt-4o-mini | prompt_chars=110 | status=success
+2026-06-20 21:34:50.340 | INFO     | №6: llm.call | duration_ms=8363.92 | model=gpt-4o-mini | prompt_chars=105 | status=success
+2026-06-20 21:34:50.803 | INFO     | №7: llm.call | duration_ms=8827.66 | model=gpt-4o-mini | prompt_chars=109 | status=success
+2026-06-20 21:34:53.783 | INFO     | №9: llm.call | duration_ms=11807.65 | model=gpt-4o-mini | prompt_chars=94 | status=success
+2026-06-20 21:34:54.311 | INFO     | №10: llm.call | duration_ms=12335.10 | model=gpt-4o-mini | prompt_chars=100 | status=success
+2026-06-20 21:34:54.395 | INFO     | №5: llm.call | duration_ms=12419.15 | model=gpt-4o-mini | prompt_chars=105 | status=success
+2026-06-20 21:34:56.816 | INFO     | №8: llm.call | duration_ms=14840.49 | model=gpt-4o-mini | prompt_chars=103 | status=success
+2026-06-20 21:34:57.815 | INFO     | №11: llm.call | duration_ms=15839.04 | model=gpt-4o-mini | prompt_chars=107 | status=success
+2026-06-20 21:34:58.126 | INFO     | №12: llm.call | duration_ms=16150.76 | model=gpt-4o-mini | prompt_chars=102 | status=success
+2026-06-20 21:34:59.780 | INFO     | №13: llm.call | duration_ms=17804.81 | model=gpt-4o-mini | prompt_chars=115 | status=success
+2026-06-20 21:35:00.962 | INFO     | №14: llm.call | duration_ms=18986.16 | model=gpt-4o-mini | prompt_chars=113 | status=success
+2026-06-20 21:35:02.112 | INFO     | №15: llm.call | duration_ms=20135.90 | model=gpt-4o-mini | prompt_chars=101 | status=success
+2026-06-20 21:35:02.570 | INFO     | №16: llm.call | duration_ms=20593.86 | model=gpt-4o-mini | prompt_chars=88 | status=success
+2026-06-20 21:35:04.368 | INFO     | №17: llm.call | duration_ms=22392.07 | model=gpt-4o-mini | prompt_chars=108 | status=success
+2026-06-20 21:35:05.692 | INFO     | №18: llm.call | duration_ms=23716.21 | model=gpt-4o-mini | prompt_chars=107 | status=success
+2026-06-20 21:35:07.314 | INFO     | №19: llm.call | duration_ms=25338.13 | model=gpt-4o-mini | prompt_chars=103 | status=success
+2026-06-20 21:35:11.992 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:35:11.993 | INFO     | №4: llm.call | duration_ms=30017.41 | model=openai/gpt-oss-120b:free | prompt_chars=95 | status=timeout
+2026-06-20 21:35:11.993 | INFO     | Успешно выполнено: 19/20
+2026-06-20 21:35:11.993 | INFO     | Общее время на все запросы: 30.02 сек.
+
+2026-06-20 21:35:11.993 | INFO     | === Выполнение с concurrency = 10 ===
+2026-06-20 21:35:15.418 | WARNING  | №9: OpenAI failed: Error code: 429 - {'error': {'message': 'Rate-limit error: You send more than 1 request per 1.0 second. Try later.', 'code': 429}}
+2026-06-20 21:35:15.658 | WARNING  | №1: OpenAI failed: Error code: 429 - {'error': {'message': 'Rate-limit error: You send more than 1 request per 1.0 second. Try later.', 'code': 429}}
+2026-06-20 21:35:16.314 | INFO     | №3: llm.call | duration_ms=4319.13 | model=gpt-4o-mini | prompt_chars=110 | status=success
+2026-06-20 21:35:16.454 | INFO     | №0: llm.call | duration_ms=4460.45 | model=gpt-4o-mini | prompt_chars=110 | status=success
+2026-06-20 21:35:17.202 | INFO     | №4: llm.call | duration_ms=5206.58 | model=gpt-4o-mini | prompt_chars=95 | status=success
+2026-06-20 21:35:17.758 | INFO     | №8: llm.call | duration_ms=5761.09 | model=gpt-4o-mini | prompt_chars=103 | status=success
+2026-06-20 21:35:17.820 | INFO     | №6: llm.call | duration_ms=5823.66 | model=gpt-4o-mini | prompt_chars=105 | status=success
+2026-06-20 21:35:17.945 | INFO     | №7: llm.call | duration_ms=5948.64 | model=gpt-4o-mini | prompt_chars=109 | status=success
+2026-06-20 21:35:18.752 | INFO     | №2: llm.call | duration_ms=6757.23 | model=gpt-4o-mini | prompt_chars=95 | status=success
+2026-06-20 21:35:19.143 | INFO     | №5: llm.call | duration_ms=7147.42 | model=gpt-4o-mini | prompt_chars=105 | status=success
+2026-06-20 21:35:20.652 | INFO     | №10: llm.call | duration_ms=8655.22 | model=gpt-4o-mini | prompt_chars=100 | status=success
+2026-06-20 21:35:20.955 | INFO     | №12: llm.call | duration_ms=8958.01 | model=gpt-4o-mini | prompt_chars=102 | status=success
+2026-06-20 21:35:21.778 | INFO     | №13: llm.call | duration_ms=9780.78 | model=gpt-4o-mini | prompt_chars=115 | status=success
+2026-06-20 21:35:21.854 | INFO     | №15: llm.call | duration_ms=9856.42 | model=gpt-4o-mini | prompt_chars=101 | status=success
+2026-06-20 21:35:23.614 | INFO     | №14: llm.call | duration_ms=11617.17 | model=gpt-4o-mini | prompt_chars=113 | status=success
+2026-06-20 21:35:23.762 | INFO     | №17: llm.call | duration_ms=11764.88 | model=gpt-4o-mini | prompt_chars=108 | status=success
+2026-06-20 21:35:24.257 | INFO     | №11: llm.call | duration_ms=12259.42 | model=gpt-4o-mini | prompt_chars=107 | status=success
+2026-06-20 21:35:24.957 | INFO     | №1: llm.call | duration_ms=12962.41 | model=openai/gpt-oss-120b:free | prompt_chars=101 | status=success
+2026-06-20 21:35:25.281 | INFO     | №19: llm.call | duration_ms=13284.10 | model=gpt-4o-mini | prompt_chars=103 | status=success
+2026-06-20 21:35:26.333 | INFO     | №18: llm.call | duration_ms=14336.22 | model=gpt-4o-mini | prompt_chars=107 | status=success
+2026-06-20 21:35:26.915 | INFO     | №16: llm.call | duration_ms=14917.56 | model=gpt-4o-mini | prompt_chars=88 | status=success
+2026-06-20 21:35:42.011 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:35:42.011 | INFO     | №9: llm.call | duration_ms=30014.26 | model=openai/gpt-oss-120b:free | prompt_chars=94 | status=timeout
+2026-06-20 21:35:42.011 | INFO     | Успешно выполнено: 19/20
+2026-06-20 21:35:42.011 | INFO     | Общее время на все запросы: 30.02 сек.
+
+2026-06-20 21:35:42.012 | INFO     | === Выполнение sync_client ===
+2026-06-20 21:35:46.338 | INFO     | llm.call | duration_ms=4326.63 | model=gpt-4o-mini | prompt_chars=110 | status=success
+2026-06-20 21:35:49.395 | INFO     | llm.call | duration_ms=3055.78 | model=gpt-4o-mini | prompt_chars=101 | status=success
+2026-06-20 21:35:53.090 | INFO     | llm.call | duration_ms=3695.43 | model=gpt-4o-mini | prompt_chars=95 | status=success
+2026-06-20 21:35:56.683 | INFO     | llm.call | duration_ms=3592.13 | model=gpt-4o-mini | prompt_chars=110 | status=success
+2026-06-20 21:36:00.307 | INFO     | llm.call | duration_ms=3623.97 | model=gpt-4o-mini | prompt_chars=95 | status=success
+2026-06-20 21:36:05.756 | INFO     | llm.call | duration_ms=5447.91 | model=gpt-4o-mini | prompt_chars=105 | status=success
+2026-06-20 21:36:10.805 | INFO     | llm.call | duration_ms=5049.11 | model=gpt-4o-mini | prompt_chars=105 | status=success
+2026-06-20 21:36:14.613 | INFO     | llm.call | duration_ms=3807.73 | model=gpt-4o-mini | prompt_chars=109 | status=success
+2026-06-20 21:36:18.610 | INFO     | llm.call | duration_ms=3996.58 | model=gpt-4o-mini | prompt_chars=103 | status=success
+2026-06-20 21:36:21.770 | INFO     | llm.call | duration_ms=3159.57 | model=gpt-4o-mini | prompt_chars=94 | status=success
+2026-06-20 21:36:25.546 | INFO     | llm.call | duration_ms=3775.40 | model=gpt-4o-mini | prompt_chars=100 | status=success
+2026-06-20 21:36:29.763 | INFO     | llm.call | duration_ms=4216.98 | model=gpt-4o-mini | prompt_chars=107 | status=success
+2026-06-20 21:36:33.732 | INFO     | llm.call | duration_ms=3968.57 | model=gpt-4o-mini | prompt_chars=102 | status=success
+2026-06-20 21:36:37.696 | INFO     | llm.call | duration_ms=3963.25 | model=gpt-4o-mini | prompt_chars=115 | status=success
+2026-06-20 21:36:43.225 | INFO     | llm.call | duration_ms=5529.05 | model=gpt-4o-mini | prompt_chars=113 | status=success
+2026-06-20 21:36:47.337 | INFO     | llm.call | duration_ms=4110.89 | model=gpt-4o-mini | prompt_chars=101 | status=success
+2026-06-20 21:36:51.951 | INFO     | llm.call | duration_ms=4614.33 | model=gpt-4o-mini | prompt_chars=88 | status=success
+2026-06-20 21:36:55.756 | INFO     | llm.call | duration_ms=3804.33 | model=gpt-4o-mini | prompt_chars=108 | status=success
+2026-06-20 21:36:59.752 | INFO     | llm.call | duration_ms=3995.33 | model=gpt-4o-mini | prompt_chars=107 | status=success
+2026-06-20 21:37:03.258 | INFO     | llm.call | duration_ms=3506.06 | model=gpt-4o-mini | prompt_chars=103 | status=success
+2026-06-20 21:37:03.259 | INFO     | Общее время на все запросы: 81.25 сек.
+
+2026-06-20 21:37:42.206 | WARNING  | №17: OpenAI failed: Error code: 429 - {'error': {'message': 'Rate-limit error: You send more than 1 request per 1.0 second. Try later.', 'code': 429}}
+2026-06-20 21:37:42.272 | WARNING  | №6: OpenAI failed: Error code: 429 - {'error': {'message': 'Rate-limit error: You send more than 1 request per 1.0 second. Try later.', 'code': 429}}
+2026-06-20 21:37:42.273 | WARNING  | №8: OpenAI failed: Error code: 429 - {'error': {'message': 'Rate-limit error: You send more than 1 request per 1.0 second. Try later.', 'code': 429}}
+2026-06-20 21:37:42.274 | WARNING  | №18: OpenAI failed: Error code: 429 - {'error': {'message': 'Rate-limit error: You send more than 1 request per 1.0 second. Try later.', 'code': 429}}
+2026-06-20 21:37:42.276 | WARNING  | №19: OpenAI failed: Error code: 429 - {'error': {'message': 'Rate-limit error: You send more than 1 request per 1.0 second. Try later.', 'code': 429}}
+2026-06-20 21:37:42.355 | WARNING  | №14: OpenAI failed: Error code: 429 - {'error': {'message': 'Rate-limit error: You send more than 1 request per 1.0 second. Try later.', 'code': 429}}
+2026-06-20 21:37:42.368 | WARNING  | №0: OpenAI failed: Error code: 429 - {'error': {'message': 'Rate-limit error: You send more than 1 request per 1.0 second. Try later.', 'code': 429}}
+2026-06-20 21:37:42.382 | WARNING  | №9: OpenAI failed: Error code: 429 - {'error': {'message': 'Rate-limit error: You send more than 1 request per 1.0 second. Try later.', 'code': 429}}
+2026-06-20 21:37:42.462 | WARNING  | №13: OpenAI failed: Error code: 429 - {'error': {'message': 'Rate-limit error: You send more than 1 request per 1.0 second. Try later.', 'code': 429}}
+2026-06-20 21:37:42.524 | WARNING  | №12: OpenAI failed: Error code: 429 - {'error': {'message': 'Rate-limit error: You send more than 1 request per 1.0 second. Try later.', 'code': 429}}
+2026-06-20 21:37:42.707 | INFO     | №1: llm.call | duration_ms=3932.32 | model=gpt-4o-mini | prompt_chars=101 | status=success
+2026-06-20 21:37:42.739 | INFO     | №5: llm.call | duration_ms=3947.84 | model=gpt-4o-mini | prompt_chars=105 | status=success
+2026-06-20 21:37:43.026 | INFO     | №3: llm.call | duration_ms=4250.35 | model=gpt-4o-mini | prompt_chars=110 | status=success
+2026-06-20 21:37:43.711 | INFO     | №7: llm.call | duration_ms=4918.35 | model=gpt-4o-mini | prompt_chars=109 | status=success
+2026-06-20 21:37:43.867 | INFO     | №16: llm.call | duration_ms=5070.83 | model=gpt-4o-mini | prompt_chars=88 | status=success
+2026-06-20 21:37:43.972 | INFO     | №11: llm.call | duration_ms=5177.88 | model=gpt-4o-mini | prompt_chars=107 | status=success
+2026-06-20 21:37:44.028 | INFO     | №15: llm.call | duration_ms=5231.90 | model=gpt-4o-mini | prompt_chars=101 | status=success
+2026-06-20 21:37:44.159 | INFO     | №4: llm.call | duration_ms=5368.24 | model=gpt-4o-mini | prompt_chars=95 | status=success
+2026-06-20 21:37:44.550 | INFO     | №2: llm.call | duration_ms=5774.46 | model=gpt-4o-mini | prompt_chars=95 | status=success
+2026-06-20 21:37:45.676 | INFO     | №10: llm.call | duration_ms=6881.95 | model=gpt-4o-mini | prompt_chars=100 | status=success
+2026-06-20 21:38:05.703 | INFO     | №13: llm.call | duration_ms=26907.47 | model=openai/gpt-oss-120b:free | prompt_chars=115 | status=success
+2026-06-20 21:38:08.548 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:38:08.548 | INFO     | №0: llm.call | duration_ms=30005.30 | model=openai/gpt-oss-120b:free | prompt_chars=110 | status=timeout
+2026-06-20 21:38:08.807 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:38:08.807 | INFO     | №6: llm.call | duration_ms=30015.11 | model=openai/gpt-oss-120b:free | prompt_chars=105 | status=timeout
+2026-06-20 21:38:08.808 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:38:08.808 | INFO     | №8: llm.call | duration_ms=30014.69 | model=openai/gpt-oss-120b:free | prompt_chars=103 | status=timeout
+2026-06-20 21:38:08.808 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:38:08.808 | INFO     | №9: llm.call | duration_ms=30014.66 | model=openai/gpt-oss-120b:free | prompt_chars=94 | status=timeout
+2026-06-20 21:38:08.808 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:38:08.808 | INFO     | №12: llm.call | duration_ms=30013.64 | model=openai/gpt-oss-120b:free | prompt_chars=102 | status=timeout
+2026-06-20 21:38:08.808 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:38:08.809 | INFO     | №14: llm.call | duration_ms=30012.92 | model=openai/gpt-oss-120b:free | prompt_chars=113 | status=timeout
+2026-06-20 21:38:08.809 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:38:08.809 | INFO     | №17: llm.call | duration_ms=30011.73 | model=openai/gpt-oss-120b:free | prompt_chars=108 | status=timeout
+2026-06-20 21:38:08.809 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:38:08.809 | INFO     | №18: llm.call | duration_ms=30011.48 | model=openai/gpt-oss-120b:free | prompt_chars=107 | status=timeout
+2026-06-20 21:38:08.809 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:38:08.809 | INFO     | №19: llm.call | duration_ms=30011.22 | model=openai/gpt-oss-120b:free | prompt_chars=103 | status=timeout
+2026-06-20 21:38:08.810 | INFO     | Успешно выполнено: 11/20
+2026-06-20 21:38:08.810 | INFO     | Общее время на все запросы: 30.27 сек.
+
+2026-06-20 21:38:12.735 | WARNING  | №1: OpenAI failed: Error code: 429 - {'error': {'message': 'Rate-limit error: You send more than 1 request per 1.0 second. Try later.', 'code': 429}}
+2026-06-20 21:38:12.816 | WARNING  | №8: OpenAI failed: Connection error.
+2026-06-20 21:38:12.832 | WARNING  | №16: OpenAI failed: Error code: 429 - {'error': {'message': 'Rate-limit error: You send more than 1 request per 1.0 second. Try later.', 'code': 429}}
+2026-06-20 21:38:13.360 | INFO     | №4: llm.call | duration_ms=4121.96 | model=gpt-4o-mini | prompt_chars=95 | status=success
+2026-06-20 21:38:14.354 | INFO     | №10: llm.call | duration_ms=5115.14 | model=gpt-4o-mini | prompt_chars=100 | status=success
+2026-06-20 21:38:14.442 | INFO     | №12: llm.call | duration_ms=5201.94 | model=gpt-4o-mini | prompt_chars=102 | status=success
+2026-06-20 21:38:14.476 | INFO     | №2: llm.call | duration_ms=5238.52 | model=gpt-4o-mini | prompt_chars=95 | status=success
+2026-06-20 21:38:14.510 | INFO     | №19: llm.call | duration_ms=5269.12 | model=gpt-4o-mini | prompt_chars=103 | status=success
+2026-06-20 21:38:14.539 | INFO     | №14: llm.call | duration_ms=5299.41 | model=gpt-4o-mini | prompt_chars=113 | status=success
+2026-06-20 21:38:15.150 | INFO     | №7: llm.call | duration_ms=5911.48 | model=gpt-4o-mini | prompt_chars=109 | status=success
+2026-06-20 21:38:15.170 | INFO     | №18: llm.call | duration_ms=5928.82 | model=gpt-4o-mini | prompt_chars=107 | status=success
+2026-06-20 21:38:15.316 | INFO     | №15: llm.call | duration_ms=6076.09 | model=gpt-4o-mini | prompt_chars=101 | status=success
+2026-06-20 21:38:15.762 | INFO     | №11: llm.call | duration_ms=6522.70 | model=gpt-4o-mini | prompt_chars=107 | status=success
+2026-06-20 21:38:15.857 | INFO     | №5: llm.call | duration_ms=6619.24 | model=gpt-4o-mini | prompt_chars=105 | status=success
+2026-06-20 21:38:16.190 | INFO     | №9: llm.call | duration_ms=6950.98 | model=gpt-4o-mini | prompt_chars=94 | status=success
+2026-06-20 21:38:17.383 | INFO     | №0: llm.call | duration_ms=8147.58 | model=gpt-4o-mini | prompt_chars=110 | status=success
+2026-06-20 21:38:17.441 | INFO     | №17: llm.call | duration_ms=8200.57 | model=gpt-4o-mini | prompt_chars=108 | status=success
+2026-06-20 21:38:17.713 | INFO     | №13: llm.call | duration_ms=8473.64 | model=gpt-4o-mini | prompt_chars=115 | status=success
+2026-06-20 21:38:18.220 | INFO     | №6: llm.call | duration_ms=8982.08 | model=gpt-4o-mini | prompt_chars=105 | status=success
+2026-06-20 21:38:18.384 | INFO     | №3: llm.call | duration_ms=9146.16 | model=gpt-4o-mini | prompt_chars=110 | status=success
+2026-06-20 21:38:26.827 | INFO     | №1: llm.call | duration_ms=17590.23 | model=openai/gpt-oss-120b:free | prompt_chars=101 | status=success
+2026-06-20 21:38:39.250 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:38:39.251 | INFO     | №16: llm.call | duration_ms=30010.21 | model=openai/gpt-oss-120b:free | prompt_chars=88 | status=timeout
+2026-06-20 21:38:39.251 | ERROR    | LLM chat call timed out after 15 seconds
+2026-06-20 21:38:39.251 | INFO     | №8: llm.call | duration_ms=30012.24 | model=openai/gpt-oss-120b:free | prompt_chars=103 | status=timeout
+2026-06-20 21:38:39.251 | ERROR    | 
+Произошла ошибка: unhandled errors in a TaskGroup (2 sub-exceptions)
